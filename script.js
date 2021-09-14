@@ -17,8 +17,9 @@ function birthDay(){
     
     var day = ( ( (century/4) -2*year-1) + ((5*year/4) ) + ((26*(month+1)/10)) + date ) % 7;
     var dayOfBirth = Math.floor(day);
+    
 
     if (gender === "Male"){
-        document.getElementById("result").innerHTML = "Your DOB is" + dayOfWeek[dayOfBirth - 1]+ "and your akan name is" + female[dayOfBirth - 1];
+        document.getElementById("result").innerHTML = "Your DOB is " + dayOfWeek[dayOfBirth - 1]+ "and your akan name is " + female[dayOfBirth - 1];
     }
 }
