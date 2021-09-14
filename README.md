@@ -17,6 +17,10 @@ You can contribute to this project by forking it to your local machine, then cre
 - HTML
 - Javascript.
 - Bootstrap.
+
+# Known Bugs
+- The fields can take negative number.
+- The female selector does not work.
 # Contact information.
 You can email me at [jaredatandi07@gmail.com](https://mailto:jaredatandi07@gmail.com)
 
