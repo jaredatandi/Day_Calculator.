@@ -21,6 +21,6 @@ function birthDay(){
         document.getElementById("result").innerHTML = "Your DOB is " + dayOfWeek[dayOfBirth - 1]+ "and your akan name is " + male[dayOfBirth - 1];
     }
     else if (gender === "Female") {
-        document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1]+ " and your name is " +  female[dayOfBirth -1];
+        document.getElementById("result").innerHTML = "Your DOB is " + dayOfWeek[dayOfBirth -1]+ " and your name is " +  female[dayOfBirth -1];
     }     
 }
