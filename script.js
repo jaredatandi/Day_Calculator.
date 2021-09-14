@@ -18,7 +18,4 @@ function birthDay(){
 
     // var d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )% 7;
     var d = (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7;
-    var dd = Math.floor(d)
-    var fix = Math.abs(d);
-    console.log(fix);
 }
