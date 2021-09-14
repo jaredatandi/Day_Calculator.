@@ -12,13 +12,24 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Day of the Week calculator</h1>
+    <h1>AKAN NAMES</h1> 
+    <p>Akan name correspondence calculator will match your DOB to known Akan name</p>
 <div class="container">
-
-    <div class="dateInput">
-        <input id="birthday" type="date">
-        <input type="submit" onclick="birthDay()" value="Submit">
-    </div>
+    <form id="form" method="POST">
+        <fieldset>
+          <legend>Input your DOB to get started:</legend>
+          Date:<input type="number" id="date">
+          Month:<input type="number" id="month">
+          Year:<input type="number" id="year">
+          <select id="gender">
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+          </select>
+        </fieldset>
+        <br>
+        <input type="submit" value="Submit" id="submitBtn" class="btn btn-primary" onclick="calculateName(); return false"/>
+        <h2 class ="text-center" id="result">Results:</h2>
+      </form>
 
 </div>
 
