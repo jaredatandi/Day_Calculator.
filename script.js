@@ -1,5 +1,3 @@
-
-
 function birthDay(){
     var date = document.getElementById('date').value;
     var month = document.getElementById('month').value;
@@ -24,4 +22,5 @@ function birthDay(){
     }
     else if (gender === "Female") {
         document.getElementById("result").innerHTML = "You were born on " + dayOfWeek[dayOfBirth - 1]+ " and your name is " +  female[dayOfBirth -1];
+    }     
 }
